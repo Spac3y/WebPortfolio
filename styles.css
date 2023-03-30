@@ -1,3 +1,10 @@
-.container {
-    margin: auto;
+
+body {
+    background-color: green;
+}
+
+#divId {
+    font-size: 100px;
+    text-align: center;
+    align-content: center;
 }
