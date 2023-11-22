@@ -1,0 +1,10 @@
+
+DirectoryIndex index.html
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^vladify\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.vladify\.com$
+RewriteRule ^host$ "https\:\/\/www\.dmhosting\.ro\/login" [R=301,L]
+
+Header always edit Set-Cookie ^(.*)$ $1;SameSite=None;Secure
+Header always set Access-Control-Allow-Origin "*"

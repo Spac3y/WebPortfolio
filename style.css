@@ -1,7 +1,17 @@
 body {
-    align-items: center;
+    background-color: black;
+    margin: 25%;
+    text-align: center;
 }
 
-h1 {
-    color: blue;
+p, h3, h1 {
+	color: white;
+}
+
+.text-wrapper {
+    width: 33.3%;
+}
+
+iframe {
+    margin:auto;
 }
