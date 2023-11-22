@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S81RNZEWM8"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-S81RNZEWM8"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-    gtag('config', 'G-S81RNZEWM8');
-    </script>
+		gtag('config', 'G-S81RNZEWM8');
+	</script>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    <title>Idk wtf I'm doing here</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="javascript.js" type="module" defer></script>
+
+	<title>Idk wtf I'm doing here</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="text-wrapper">
-            <h3 class="episode">Episode III</h3>
-            <h1 class="episode-title">Revenge of the Sith</h1>
-            <p class="short-story">War! The Republic is crumbling under attacks by the ruthless Sith Lord, Count Dooku. There are heroes on both sides. Evil is everywhere.
-                In a stunning move, the fiendish droid leader, General Grievous, has swept into the Republic capital and kidnapped Chancellor Palpatine, leader of the Galactic Senate.
-                As the Separatist Droid Army attempts to flee the besieged capital with their valuable hostage, two Jedi Knights lead a desperate mission to rescue the captive Chancellor....</p>
-            </div>
-            <a href="animatedText/animatedText.html">Press Me!</a>
-            <a href="shopping-app/index.html">Time to shop</a>
+	<div class="wrapper">
+		<div class="text-wrapper">
+			<h3 class="episode">Episode III</h3>
+			<h1 class="episode-title">Revenge of the Sith</h1>
+			<p class="short-story">War! The Republic is crumbling under attacks by the ruthless Sith Lord, Count Dooku.
+				There are heroes on both sides. Evil is everywhere.
+				In a stunning move, the fiendish droid leader, General Grievous, has swept into the Republic capital and
+				kidnapped Chancellor Palpatine, leader of the Galactic Senate.
+				As the Separatist Droid Army attempts to flee the besieged capital with their valuable hostage, two Jedi
+				Knights lead a desperate mission to rescue the captive Chancellor....</p>
+		</div>
+		<a href="animatedText/animatedText.html">Press Me!</a>
+		<a href="shopping-app/index.html">Time to shop</a>
 
 		<div class="current-project">
-			<p>Here you can find a list with all my current projects:</p>
-			<ul>
-				<li><a href="https://mriron.ro/">mriron</a></li>
-				<li><a href="https://grupindustry.ro/">grupindustry</a></li>
-				<li><a href="http://www.casa-munteneasca.ro/">casa-munteneasca</a></li>
-			</ul>
+			<h1>Here you can find a list with all my current projects:</h1>
+			<div class="projects-wrapper">
+				<div class="project" id="1">
+					<a href="https://mriron.ro/">MrIron.ro</a>
+					<div class="preview"></div>
+				</div>
+				<div class="project" id="2">
+					<a href="http://www.casa-munteneasca.ro/">Casa Munteneasca</a>
+					<div class="preview"></div>
+				</div>
+				<div class="project" id="3">
+					<!-- <a href="https://grupindustry.ro/">Grup Industry</a> -->
+					<div class="preview"></div>
+					<meta property="og:url" content="https://www.mriron.ro">
+				</div>
+			</div>
 		</div>
-    </div>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7700.273094892904!2d120.5742474620824!3d15.205692000000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396ed6414907d95%3A0xdaa04b8f9e182169!2snigger!5e0!3m2!1sro!2sro!4v1685986104010!5m2!1sro!2sro"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <script src="javascript.js" type="module"></script>
+	</div>
 </body>
+
 </html>
